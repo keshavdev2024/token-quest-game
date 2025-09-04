@@ -104,7 +104,7 @@ All colors MUST be HSL.
   
   /* Game-specific styles */
   .game-container {
-    @apply w-full h-screen bg-background;
+    @apply w-full h-full bg-transparent;
   }
   
   .jwt-glow {
