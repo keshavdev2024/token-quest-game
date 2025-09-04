@@ -52,6 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Game-specific colors
+				jwt: {
+					header: 'hsl(var(--jwt-header))',
+					payload: 'hsl(var(--jwt-payload))',
+					signature: 'hsl(var(--jwt-signature))'
+				},
+				success: 'hsl(var(--success-glow))',
+				error: 'hsl(var(--error-glow))',
+				access: {
+					granted: 'hsl(var(--access-granted))',
+					denied: 'hsl(var(--access-denied))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
